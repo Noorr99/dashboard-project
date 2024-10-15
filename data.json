@@ -3,10 +3,13 @@
     {
       "name": "Client A",
       "won": 4,
-      "lost": 3,
+      "lost": 2,
       "projects": [
         { "year": 2020, "projectCount": 2 },
-        { "year": 2021, "projectCount": 4 }
+        { "year": 2021, "projectCount": 0 },
+        { "year": 2022, "projectCount": 4 },
+        { "year": 2023, "projectCount": 2 },
+        { "year": 2024, "projectCount": 0 }
       ],
       "contact": {
         "phone": "123-456-7890",

@@ -1,0 +1,12 @@
+{
+    "clients": [
+      { "name": "Client A", "won": 4, "lost": 3 },
+      { "name": "Client B", "won": 5, "lost": 2 },
+      { "name": "Client C", "won": 3, "lost": 4 }
+    ],
+    "ai_decisions": {
+      "Go": 7,
+      "No-Go": 5
+    }
+  }
+  

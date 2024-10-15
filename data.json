@@ -1,12 +1,22 @@
 {
-    "clients": [
-      { "name": "Client A", "won": 4, "lost": 3 },
-      { "name": "Client B", "won": 5, "lost": 2 },
-      { "name": "Client C", "won": 3, "lost": 4 }
-    ],
-    "ai_decisions": {
-      "Go": 7,
-      "No-Go": 5
+  "clients": [
+    {
+      "name": "Client A",
+      "won": 4,
+      "lost": 3,
+      "projects": [
+        { "year": 2020, "projectCount": 2 },
+        { "year": 2021, "projectCount": 4 }
+      ],
+      "contact": {
+        "phone": "123-456-7890",
+        "email": "clientA@example.com"
+      },
+      "global_relationship_partner": {
+        "name": "John Doe",
+        "phone": "987-654-3210",
+        "email": "johndoe@example.com"
+      }
     }
-  }
-  
+  ]
+}

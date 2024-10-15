@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Client Dashboard</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Include Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
-
 </head>
 <body>
     <h1>PwC vs Client Dashboard</h1>
     
+    <!-- Client details -->
+    <h2>Client Details</h2>
+    <p id="clientName"></p>
+    <p id="clientContact"></p>
+    <p id="clientGRP"></p>
+
+    <!-- Win/Loss Chart -->
     <div class="chart-container">
         <canvas id="pwcSuccessChart"></canvas>
     </div>
+
+    <!-- Timeline Chart -->
     <div class="chart-container">
         <canvas id="aiDecisionChart"></canvas>
     </div>

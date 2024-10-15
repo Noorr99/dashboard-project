@@ -1,19 +1,29 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f0f0f0;  /* Light background color */
-  color: #333;  /* Text color */
+  background-color: #f0f0f0;
+  color: #333;
 }
 
 h1 {
-  color: #007acc;  /* Title color */
+  color: #007acc;
 }
 
 .chart-container {
   width: 80%;
   margin: 20px auto;
-  background-color: #ffffff;  /* White background for the chart area */
+  background-color: #ffffff;
   padding: 20px;
-  border-radius: 10px;  /* Rounded corners */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 20px;
+  color: #007acc;
+}
+
+p {
+  font-size: 1.1em;
+  color: #333;
 }

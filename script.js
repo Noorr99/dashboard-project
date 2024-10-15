@@ -2,6 +2,8 @@
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
+    console.log(data);  // Check if data is fetched correctly
+
     // PwC Success Bar Chart
     const ctx1 = document.getElementById('pwcSuccessChart').getContext('2d');
     const pwcSuccessChart = new Chart(ctx1, {
@@ -44,4 +46,5 @@ fetch('data.json')
         ]
       }
     });
-  });
+  })
+  .catch(error => console.error('Error fetching the data:', error));

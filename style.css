@@ -1,11 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .chart-container {
-    width: 80%;
-    margin: 20px auto;
-  }
-  
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.chart-container {
+  width: 80%;
+  margin: 20px auto;
+}
